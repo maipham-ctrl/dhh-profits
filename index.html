@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Earn Your Keep: How is Social Value of Businesses Communicated? Poster supplement with quantitative plots, topic modeling, collocation analysis, and an embedded RAG method visualization."
+    >
+    <title>Earn Your Keep: How is Social Value of Businesses Communicated?</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-hero" id="top">
+      <nav class="topbar" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Earn Your Keep home">
+          <img class="brand-logo" src="assets/logo.drawio.png" alt="Earn Your Keep logo">
+          <span>Earn Your Keep</span>
+        </a>
+        <div class="nav-links">
+          <a href="#quantitative">Quantitative</a>
+          <a href="#topics">Topic Modeling</a>
+          <a href="#collocation">Collocation</a>
+          <a href="#rag">RAG Method</a>
+        </div>
+      </nav>
+
+      <section class="hero-grid" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Poster supplement</p>
+          <h1 id="page-title">Earn Your Keep</h1>
+          <p class="hero-question">How is Social Value of Businesses Communicated?</p>
+          <p class="hero-lede">
+            Supplemental visual evidence for a poster project comparing how
+            social value appears in Finnish state-aid data, company reporting,
+            and language-based analysis.
+          </p>
+          <div class="hero-actions" aria-label="Page shortcuts">
+            <a class="primary-link" href="#quantitative">View analysis</a>
+            <a class="secondary-link" href="#rag">RAG visualization</a>
+          </div>
+        </div>
+
+        <figure class="hero-image-frame">
+          <img
+            class="hero-logo"
+            src="assets/logo.drawio.png"
+            alt="Earn Your Keep logo"
+          >
+        </figure>
+      </section>
+    </header>
+
+    <main>
+      <section class="content-band project-band" id="project" aria-labelledby="project-title">
+        <div class="section-shell">
+          <p class="section-kicker">Project highlight</p>
+          <div class="project-intro">
+            <h2 id="project-title">What this supplement adds</h2>
+            <p>
+              The poster introduces the core argument about social value in
+              Finland. This page keeps the supporting plots together: numerical
+              trends, collocation patterns, topic-model evidence, and a method
+              visualization for the retrieval-augmented generation workflow.
+            </p>
+          </div>
+
+          <div class="highlight-grid" aria-label="Project focus areas">
+            <article>
+              <span class="focus-number">01</span>
+              <h3>Quantitative signals</h3>
+              <p>State-aid and company KPI plots show how measurable support and reporting change over time.</p>
+            </article>
+            <article>
+              <span class="focus-number">02</span>
+              <h3>Language patterns</h3>
+              <p>Collocation and topic models compare social-value framing across policy and corporate texts.</p>
+            </article>
+            <article>
+              <span class="focus-number">03</span>
+              <h3>RAG workflow</h3>
+              <p>The embedded method view shows how evidence moves from documents into analysis.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band analysis-band" id="quantitative" aria-labelledby="quantitative-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Quantitative analysis</p>
+            <h2 id="quantitative-title">State aid and company indicators</h2>
+            <p>
+              These plots hold the quantitative evidence that could not fit on
+              the poster: the broad state-aid view plus company-level trend
+              comparisons.
+            </p>
+          </div>
+
+          <div class="quantitative-stack">
+            <article class="figure-card figure-card-wide">
+              <figure class="figure-media image-frame state-aid-graph-frame">
+                <img
+                  src="assets/state-aid-quantitive.png"
+                  alt="Quantitative state-aid visualization for Finland"
+                >
+              </figure>
+            </article>
+
+            <article class="figure-card figure-card-wide">
+              <figure class="figure-media image-frame">
+                <img src="assets/nokia_kpi_trends.png" alt="Nokia KPI trend visualization">
+              </figure>
+              <div class="figure-body">
+                <h3>Nokia KPI trends</h3>
+                <p>Company-level indicators for comparing social-value reporting against the wider Finnish context.</p>
+              </div>
+            </article>
+
+            <article class="figure-card figure-card-wide">
+              <figure class="figure-media image-frame">
+                <img src="assets/finnair_kpi_trends.png" alt="Finnair KPI trend visualization">
+              </figure>
+              <div class="figure-body">
+                <h3>Finnair KPI trends</h3>
+                <p>Company-level indicators for comparing aviation-sector reporting with public-support evidence.</p>
+              </div>
+            </article>
+
+            <article class="figure-card figure-card-wide">
+              <figure class="figure-media image-frame">
+                <img src="assets/outokumpu_kpi_trends.png" alt="Outokumpu KPI trend visualization">
+              </figure>
+              <div class="figure-body">
+                <h3>Outokumpu KPI trends</h3>
+                <p>Company-level indicators for reading industrial reporting alongside social-value themes.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band topic-band" id="topics" aria-labelledby="topics-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Linguistic analysis</p>
+            <h2 id="topics-title">Topic modeling</h2>
+            <p>
+              All topic-modeling outputs are grouped here so state-aid evidence
+              and company-specific close readings can be compared in one space.
+            </p>
+          </div>
+
+          <div class="topic-grid">
+            <article class="figure-card">
+              <figure class="figure-media image-frame">
+                <img src="assets/state_aid_topics.png" alt="Topic model visualization for state-aid texts">
+              </figure>
+              <div class="figure-body">
+                <p class="figure-tag">State aid</p>
+                <h3>State-aid topics</h3>
+                <p>Topic clusters from state-aid texts provide the policy-side language baseline.</p>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <figure class="figure-media image-frame">
+                <img src="assets/nokia_close_reading.png" alt="Topic model visualization for Nokia close reading">
+              </figure>
+              <div class="figure-body">
+                <p class="figure-tag">Nokia</p>
+                <h3>Nokia topics</h3>
+                <p>Company-specific topics support the close reading of Nokia reporting.</p>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <figure class="figure-media image-frame">
+                <img src="assets/finnair_topics.png" alt="Topic model visualization for Finnair close reading">
+              </figure>
+              <div class="figure-body">
+                <p class="figure-tag">Finnair</p>
+                <h3>Finnair topics</h3>
+                <p>Company-specific topics support the close reading of Finnair reporting.</p>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <figure class="figure-media image-frame">
+                <img src="assets/topics_outokumpu.png" alt="Topic model visualization for Outokumpu close reading">
+              </figure>
+              <div class="figure-body">
+                <p class="figure-tag">Outokumpu</p>
+                <h3>Outokumpu topics</h3>
+                <p>Company-specific topics support the close reading of Outokumpu reporting.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band collocation-band" id="collocation" aria-labelledby="collocation-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Linguistic analysis</p>
+            <h2 id="collocation-title">Collocation analysis</h2>
+            <p>
+              The collocation views compare how social-value themes cluster with
+              frames such as compliance, ethics, opportunity, and risk.
+            </p>
+          </div>
+
+          <div class="figure-grid">
+            <article class="figure-card">
+              <figure class="figure-media image-frame image-frame-square">
+                <img
+                  src="assets/collocation-analysis-1.svg"
+                  alt="Collocation bubble chart for company annual reports"
+                >
+              </figure>
+              <div class="figure-body">
+                <p class="figure-tag">Company reports</p>
+                <h3>Company annual reports</h3>
+                <p>
+                  Collocations in company reports show which social-value themes
+                  are associated with compliance, ethics, opportunity, and risk.
+                </p>
+              </div>
+            </article>
+
+            <article class="figure-card">
+              <figure class="figure-media image-frame image-frame-square">
+                <img
+                  src="assets/collocation-analysis-2.svg"
+                  alt="Collocation bubble chart for EU state-aid cases"
+                >
+              </figure>
+              <div class="figure-body">
+                <p class="figure-tag">State aid cases</p>
+                <h3>EU state-aid cases</h3>
+                <p>
+                  Collocations in state-aid cases show how public-support
+                  language organizes social-value themes and risk framing.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band rag-band" id="rag" aria-labelledby="rag-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="section-kicker">Method visualization</p>
+            <h2 id="rag-title">RAG method visualization</h2>
+            <p>
+              The retrieval-augmented generation method view is embedded inside
+              this page so QR visitors stay in the poster supplement.
+            </p>
+          </div>
+
+          <div class="rag-frame">
+            <iframe
+              src="assets/rag_visualization.html"
+              title="Interactive RAG method visualization"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band methods-band" id="methods" aria-labelledby="methods-title">
+        <div class="section-shell method-layout">
+          <div>
+            <p class="section-kicker">Use and citation</p>
+            <h2 id="methods-title">How to read this supplement</h2>
+            <p>
+              These figures support the printed poster by preserving additional
+              evidence and method detail. The captions are intentionally short
+              so visitors can scan the page quickly from a QR code.
+            </p>
+          </div>
+          <aside class="citation-panel" aria-label="Project credits">
+            <h3>Project credits</h3>
+            <p>
+              Earn Your Keep. "How is Social Value of Businesses Communicated?"
+            </p>
+            <p>
+              Team members: Oskar Blyt, Camila Bermudez Valderrama, Anni Ervelä,
+              August Halonen, Max Milella, Karabo Mohapeloa, Rashid Mustafin,
+              Mai Phuong Pham, Syksy Sikkilä, Wart van Wuijckhuijse.
+            </p>
+            <p>
+              Helsinki Digital Humanities Hackathon 2026.
+            </p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
