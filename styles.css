@@ -403,8 +403,6 @@ h3 {
 
 .rag-frame,
 .report-frame {
-  height: min(760px, 82svh);
-  min-height: 520px;
   border: 1px solid rgba(23, 33, 31, 0.14);
   border-radius: 8px;
   background: var(--surface);
@@ -412,8 +410,15 @@ h3 {
   overflow: hidden;
 }
 
+.rag-frame {
+  height: min(720px, 88vh);
+  height: min(720px, 88svh);
+  min-height: 560px;
+}
+
 .report-frame {
   height: min(720px, 78svh);
+  min-height: 520px;
 }
 
 .rag-frame iframe,
@@ -515,6 +520,12 @@ h3 {
   .image-frame-large {
     min-height: 320px;
   }
+
+  .rag-frame {
+    height: 88vh;
+    height: 88svh;
+    min-height: 540px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -527,6 +538,17 @@ h3 {
 
   .nav-links {
     width: 100%;
+  }
+
+  .rag-frame {
+    width: calc(100% + 28px);
+    min-height: 520px;
+    margin-right: -14px;
+    margin-left: -14px;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .nav-links a {
@@ -570,11 +592,6 @@ h3 {
 
   .image-frame-square {
     min-height: 280px;
-  }
-
-  .rag-frame {
-    min-height: 460px;
-    height: 78svh;
   }
 
   .site-footer {
