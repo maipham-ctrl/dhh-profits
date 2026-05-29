@@ -2,8 +2,8 @@
 
 This folder contains a static, single-page poster supplement for **Earn Your
 Keep: How is Social Value of Businesses Communicated?** It hosts quantitative
-plots, topic modeling outputs, collocation analysis, and an embedded RAG method
-visualization.
+plots, topic modeling outputs, collocation analysis, a codebook discourse
+report, and an embedded RAG method visualization.
 
 ## Edit the Page
 
@@ -11,8 +11,10 @@ visualization.
 - Put additional plot files in `assets/`.
 - The nav logo uses `assets/logo.drawio.png`.
 - The top hero visual uses `assets/logo.drawio.png`.
-- The RAG method visualization is embedded from `assets/rag_visualization.html`
+- The RAG method visualization is embedded from `assets/rag_radar_color_fixed.html`
   with an iframe, so visitors stay on the same page.
+- The codebook discourse report is embedded from
+  `assets/codebook_report_2021-2025.html`.
 - Add a new plot by copying an existing `.figure-card`, changing the image path,
   alt text, title, and caption.
 
@@ -45,4 +47,3 @@ Official references:
 - Netlify deploys: <https://docs.netlify.com/site-deploys/create-deploys/>
 - Cloudflare static HTML: <https://developers.cloudflare.com/pages/framework-guides/deploy-anything/>
 - Vercel deployments: <https://vercel.com/docs/deployments/deployment-methods>
-
